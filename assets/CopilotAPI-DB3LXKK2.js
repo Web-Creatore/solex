@@ -1,0 +1,1 @@
+import{d as e}from"./index-BX4qsyNl.js";var t=class{static async apply(t,n){return(await e.post(`/leads/${t}/copilot`,{transcript:n})).data}static async isolationLens(t){return(await e.get(`/lens/${t}`)).data}};export{t};

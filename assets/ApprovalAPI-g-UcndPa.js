@@ -1,0 +1,1 @@
+import{d as e}from"./index-BX4qsyNl.js";var t=class{static async resolve(t,n,r=``){return(await e.post(`/approvals/${t}/resolve`,{decision:n,note:r})).data}};export{t};

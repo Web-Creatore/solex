@@ -1,0 +1,1 @@
+import{d as e}from"./index-BX4qsyNl.js";var t=class{static async advanceSettlement(t,n){return(await e.post(`/settlements/${t}/advance`,{action:n})).data}static async createExpense(t){return(await e.post(`/expenses`,t)).data}static async payExpense(t){return(await e.post(`/expenses/${t}/pay`)).data}};export{t};
